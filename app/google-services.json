@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1022694100506",
+    "firebase_url": "https://whereipark-214108.firebaseio.com",
+    "project_id": "whereipark-214108",
+    "storage_bucket": "whereipark-214108.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022694100506:android:94b1f61806cb8b30",
+        "android_client_info": {
+          "package_name": "unical.whereipark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022694100506-5fgu5lpgs1k221q424p2isfqa61ed8m2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "unical.whereipark",
+            "certificate_hash": "f6a58ca54e2cad4db0a9e9564d33686be630143a"
+          }
+        },
+        {
+          "client_id": "1022694100506-pcapdov9pkjll14qs8gvevh5tcm8cs09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBG5jRLvh9hPSeLJ_GnQlHnFkOp5SZCs8k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022694100506-pcapdov9pkjll14qs8gvevh5tcm8cs09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
