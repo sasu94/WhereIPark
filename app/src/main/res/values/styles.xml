@@ -1,20 +1,68 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/secondaryColor</item>
+        <item name="colorControlNormal">@color/secondaryDarkColor</item>
+        <!--<item name="colorControlActivated">@color/secondaryDarkColor</item>-->
+        <!--<item name="colorControlHighlight">@color/secondaryDarkColor</item>-->
+        <!--&lt;!&ndash; inactive thumb color &ndash;&gt;-->
+        <item name="colorSwitchThumbNormal">@color/secondaryDarkColor</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/secondaryLightColor</item>
+
     </style>
 
     <style name="AppTheme.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/secondaryColor</item>
+        <!--<item name="colorControlNormal">@color/secondaryDarkColor</item>-->
+        <!--<item name="colorControlActivated">@color/secondaryDarkColor</item>-->
+        <!--<item name="colorControlHighlight">@color/secondaryDarkColor</item>-->
+        <!--&lt;!&ndash; inactive thumb color &ndash;&gt;-->
+        <item name="colorSwitchThumbNormal">@color/secondaryDarkColor</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/secondaryLightColor</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
 
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/secondaryColor</item>
+    </style>
 
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/primaryTextColor</item>
+        <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+        <item name="android:colorSecondary" tools:targetApi="n_mr1">@color/secondaryColor</item>
+    </style>
+
+    <style name="Widget.AppCompat.Light.ActionBar.Solid" parent="@android:style/Widget.Holo">
+        <item name="android:background">@color/primaryColor</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.AppCompat</item>
+    </style>
 </resources>

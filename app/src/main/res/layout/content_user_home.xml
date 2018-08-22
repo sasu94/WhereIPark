@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="unical.whereipark.UserHome"
+    tools:showIn="@layout/app_bar_user_home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/UserId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Hi"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="48dp">
+
+            <TextView
+                android:id="@+id/ActPark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/actPark"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/ParkTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/timePark"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/FrequentPark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/freqPark"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
